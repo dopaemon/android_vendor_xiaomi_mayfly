@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/mayfly/proprietary/odm/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so \
     vendor/xiaomi/mayfly/proprietary/odm/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so \
+    vendor/xiaomi/mayfly/proprietary/product/etc/displayconfig/display_id_4630946545580055170.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/display_id_4630946545580055170.xml \
     vendor/xiaomi/mayfly/proprietary/vendor/bin/agmcap:$(TARGET_COPY_OUT_VENDOR)/bin/agmcap \
     vendor/xiaomi/mayfly/proprietary/vendor/bin/agmcompressplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmcompressplay \
     vendor/xiaomi/mayfly/proprietary/vendor/bin/agmplay:$(TARGET_COPY_OUT_VENDOR)/bin/agmplay \
